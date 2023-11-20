@@ -22,4 +22,9 @@ La segunda actividad se centra en la configuración de un Virtualhost. En esta p
 3. [Conclusiones](#conclusiones)
 4. [Bibliografía](#bibliografía)
 5. [Anexos](#anexos)
+## Introducción
 
+### Contexto
+Estas actividades se llevaron a cabo en el aula, un entorno controlado y diseñado para fomentar el aprendizaje práctico y la experimentación en el campo del despliegue de aplicaciones web. En este espacio, los estudiantes tienen la oportunidad de aplicar teorías y conceptos en situaciones prácticas, utilizando herramientas y tecnologías reales que se encuentran en el ámbito profesional. La realización de estas tareas en el aula permite un enfoque práctico, donde los errores y los descubrimientos se convierten en una parte fundamental del proceso de aprendizaje.
+
+La razón principal para realizar estas actividades específicas, que incluyen la manipulación de SSH y la configuración de un Virtualhost, es doble. En primer lugar, proporcionan una experiencia directa y práctica de conceptos y herramientas esenciales en la administración de sistemas y el despliegue de aplicaciones web. En segundo lugar, estas actividades forman parte integral de la evaluación del curso, donde demostrar competencia y comprensión en estas áreas es crucial para obtener una calificación satisfactoria y, en última instancia, aprobar el examen. Este enfoque práctico y orientado a resultados en el aula es esencial no solo para el éxito académico sino también para preparar a los estudiantes para los desafíos reales en el ámbito profesional.
