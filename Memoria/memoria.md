@@ -80,3 +80,11 @@ Esta actividad se centra en la creación y configuración de un Virtualhost en l
    Se procede a crear el archivo de configuración del Virtualhost para Apache.
    - Con `sudo nano /etc/apache2/sites-available/daw.ejercicio3.com.conf`, se configura el Virtualhost especificando el `ServerName`, `DocumentRoot`, y las rutas para los archivos de log.
      ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/3%20conf%20el%20virtual%20host.png)
+     
+3. **Creación del Directorio de la Web y Página Inicial:**
+   Se crea el directorio que albergará los archivos web y se escribe un archivo HTML básico.
+   - Se utiliza `sudo mkdir /var/www/daw.ejercicio3.com` para crear el directorio.
+   - Luego, `sudo nano /var/www/daw.ejercicio3.com/index.html` para crear la página inicial con contenido HTML básico.
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/creando%20el%20directorio%20y%20la%20pagina.png)
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/mi%20pagina.png)
+
