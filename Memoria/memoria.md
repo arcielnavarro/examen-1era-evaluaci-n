@@ -74,3 +74,4 @@ Esta actividad se centra en la creación y configuración de un Virtualhost en l
    - Se abre el archivo con el comando `sudo nano /etc/hosts`.
    - Se añade la línea `127.0.0.1 daw.ejercicio3.com` al archivo para establecer la resolución local del dominio.
       ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/1%20sudo%20nano%20etchosts.png)
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/2%20configurando%20el%20archivo%20host.png)
