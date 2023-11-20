@@ -20,6 +20,8 @@ La segunda actividad se centra en la configuración de un Virtualhost. En esta p
    2. [Virtualhost](#virtualhost)
    3. [Banco de Pruebas](#banco--de-pruebas)
 3. [Resultados y Conclusiones](#resultados-y-conclusiones)
+   1. [Resultados](#resultados)
+   2. [Conclusiones](#conclusiones)
 
 ## Introducción
 
