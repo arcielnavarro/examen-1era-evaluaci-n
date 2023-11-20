@@ -21,6 +21,7 @@ La segunda actividad se centra en la configuración de un Virtualhost. En esta p
 3. [Conclusiones](#conclusiones)
 4. [Bibliografía](#bibliografía)
 5. [Anexos](#anexos)
+
 ## Introducción
 
 ### Contexto
@@ -40,3 +41,35 @@ La realización de este examen en el curso "Despliegue de Aplicaciones Web" es m
 Además, el examen actúa como un catalizador para el aprendizaje autodirigido y la investigación. Prepararse para el examen anima a los estudiantes a revisar y consolidar su aprendizaje, identificar áreas de debilidad y buscar recursos adicionales para reforzar su comprensión. Este proceso de preparación es en sí mismo una parte valiosa del viaje educativo, impulsando a los estudiantes a asumir la responsabilidad de su propio aprendizaje y desarrollo.
 
 Finalmente, el examen proporciona una oportunidad para que los estudiantes demuestren su progreso y logros, no solo para sí mismos y sus instructores, sino también como una evidencia de sus habilidades y conocimientos para futuros empleadores o para estudios avanzados en el campo. En resumen, este examen es una parte esencial del curso, diseñado para evaluar y fomentar el crecimiento integral del estudiante en el ámbito del despliegue de aplicaciones web.
+
+## Desarrollo
+
+Este segmento del documento se divide en dos actividades principales: SSH + Command line y Virtualhost. Cada actividad representa un aspecto único y esencial del curso "Despliegue de Aplicaciones Web", demostrando habilidades prácticas y técnicas en el manejo de servidores y en la configuración de sitios web.
+
+### SSH + Command line (3 puntos)
+El objetivo de esta actividad es demostrar la habilidad para conectarse y operar en una máquina remota utilizando SSH y la línea de comandos. Los pasos realizados son los siguientes:
+
+1. **Acceso Remoto a la Máquina:**
+   - Conectar a la máquina remota utilizando el comando SSH.
+
+2. **Creación de Archivo de Texto:**
+   - Navegar al escritorio de la máquina remota.
+   - Crear un archivo de texto con el nombre y apellido, sin espacios y con extensión `.txt` (ejemplo: `ArnoldSchwarzenegger.txt`).
+
+3. **Registro de Usuario Activo:**
+   - Ejecutar el comando `whoami` y escribir el resultado en el archivo creado anteriormente.
+
+4. **Registro de Conexiones SSH:**
+   - Utilizar un comando de concatenación para añadir al archivo de texto información sobre quién está conectado a la máquina mediante SSH.
+
+### Virtualhost (2 puntos)
+Esta actividad se centra en la creación y configuración de un Virtualhost en la máquina del estudiante. Los pasos incluyen:
+
+1. **Configuración del Virtualhost:**
+   - Crear un Virtualhost en la máquina para que al escribir `daw.ejercicio3.com` en el navegador, se redirija a una web local.
+
+2. **Creación de la Página Web Local:**
+   - Desarrollar una página web simple que contenga el nombre del estudiante.
+
+3. **Redirección de Dominio:**
+   - Modificar el archivo de hosts en la máquina para asegurar que `daw.ejercicio3.com` redirija correctamente a la página web local creada.
