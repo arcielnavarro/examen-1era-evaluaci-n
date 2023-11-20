@@ -60,6 +60,7 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 
 3. **Registro de Usuario Activo:**
    - Ejecutar el comando `whoami` y escribir el resultado en el archivo creado anteriormente.
+   ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/ssh/escribiendo%20whoaim%20dentro%20del%20txt.png)
 
 4. **Registro de Conexiones SSH:**
    - Utilizar un comando de concatenación para añadir al archivo de texto información sobre quién está conectado a la máquina mediante SSH.
