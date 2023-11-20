@@ -69,13 +69,8 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 ### Virtualhost
 Esta actividad se centra en la creación y configuración de un Virtualhost en la máquina del estudiante. Los pasos incluyen:
 
-1. **Configuración del Virtualhost:**
-   - Crear un Virtualhost en la máquina para que al escribir `daw.ejercicio3.com` en el navegador, se redirija a una web local.
-   ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/1%20sudo%20nano%20etchosts.png)
-   ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/2%20configurando%20el%20archivo%20host.png)
-
-2. **Creación de la Página Web Local:**
-   - Desarrollar una página web simple que contenga el nombre del estudiante.
-
-3. **Redirección de Dominio:**
-   - Modificar el archivo de hosts en la máquina para asegurar que `daw.ejercicio3.com` redirija correctamente a la página web local creada.
+1. **Editar el Archivo Hosts:**
+   Para que el dominio `daw.ejercicio3.com` se resuelva localmente a la dirección IP deseada, es necesario editar el archivo hosts del sistema.
+   - Se abre el archivo con el comando `sudo nano /etc/hosts`.
+   - Se añade la línea `127.0.0.1 daw.ejercicio3.com` al archivo para establecer la resolución local del dominio.
+      ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/1%20sudo%20nano%20etchosts.png)
