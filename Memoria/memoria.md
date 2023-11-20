@@ -51,7 +51,7 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 
 1. **Acceso Remoto a la Máquina:**
    - Conectar a la máquina remota utilizando el comando SSH.
-     ![imagen](./../../Imágenes/ssh/conexion al servidor.png)
+     ![imagen](./../Imágenes/ssh/conexion al servidor.png)
 
 2. **Creación de Archivo de Texto:**
    - Navegar al escritorio de la máquina remota.
