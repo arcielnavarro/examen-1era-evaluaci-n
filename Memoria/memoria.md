@@ -99,3 +99,29 @@ Esta actividad se centra en la creación y configuración de un Virtualhost en l
 5. **Verificación del Virtualhost:**
    Al acceder al dominio `daw.ejercicio3.com` desde un navegador, se muestra la página inicial creada, confirmando que el Virtualhost ha sido configurado correctamente.
    ![Verificación del Virtualhost](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/pagina.png)
+
+## Banco de Pruebas
+
+Para asegurar que el Virtualhost ha sido configurado correctamente y funciona según lo esperado, se llevan a cabo las siguientes pruebas:
+
+1. **Prueba de Resolución de DNS:**
+   - **Objetivo:** Verificar que el dominio `daw.ejercicio3.com` resuelve a la dirección IP local `127.0.0.1`.
+   - **Método:** Utilizar el comando `ping daw.ejercicio3.com` y asegurarse de que la respuesta proviene de `127.0.0.1`.
+   - **Resultado Esperado:** El dominio debe resolver al loopback local.
+
+2. **Prueba de Carga del Sitio Web:**
+   - **Objetivo:** Confirmar que el sitio web se carga correctamente al visitar `daw.ejercicio3.com` en un navegador web.
+   - **Método:** Abrir un navegador y escribir la URL `daw.ejercicio3.com`.
+   - **Resultado Esperado:** La página de inicio que contiene el texto "Hola, soy Arciel." se muestra en el navegador.
+
+3. **Prueba de Configuración del Servidor Web:**
+   - **Objetivo:** Comprobar que Apache está sirviendo el sitio web desde el directorio correcto.
+   - **Método:** Revisar los archivos de configuración de Apache y los logs de acceso para asegurarse de que las solicitudes a `daw.ejercicio3.com` están siendo dirigidas al directorio `/var/www/daw.ejercicio3.com`.
+   - **Resultado Esperado:** Los logs deben indicar que las solicitudes HTTP se sirven desde el directorio especificado.
+
+4. **Prueba de Archivos de Log:**
+   - **Objetivo:** Asegurar que los logs de error y acceso están siendo escritos correctamente.
+   - **Método:** Generar tráfico al sitio y luego revisar `error.log` y `access.log` en `/var/log/apache2/` para cualquier actividad reciente.
+   - **Resultado Esperado:** Los logs deben reflejar las solicitudes recientes y cualquier error, si lo hubiera.
+
+
