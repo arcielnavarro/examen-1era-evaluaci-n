@@ -64,6 +64,7 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 
 4. **Registro de Conexiones SSH:**
    - Utilizar un comando de concatenación para añadir al archivo de texto información sobre quién está conectado a la máquina mediante SSH.
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/ssh/concatenando%20al%20final%20del%20archivo.png)
 
 ### Virtualhost (2 puntos)
 Esta actividad se centra en la creación y configuración de un Virtualhost en la máquina del estudiante. Los pasos incluyen:
