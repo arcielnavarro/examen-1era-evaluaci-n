@@ -89,3 +89,13 @@ Esta actividad se centra en la creación y configuración de un Virtualhost en l
      ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/creando%20el%20directorio%20y%20la%20pagina.png)
      ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/mi%20pagina.png)
 
+4. **Activación del Virtualhost y Reinicio de Apache:**
+   Finalmente, se activa el Virtualhost y se reinicia Apache para aplicar los cambios.
+   - Se deshabilita el sitio predeterminado con `sudo a2dissite 000-default.conf`.
+   - Se habilita el nuevo sitio con `sudo a2ensite daw.ejercicio3.com.conf`.
+   - Se recarga la configuración de Apache con `sudo systemctl reload apache2`.
+   ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/deshabilitando%20el%20sitio%20por%20defecto.png)
+
+5. **Verificación del Virtualhost:**
+   Al acceder al dominio `daw.ejercicio3.com` desde un navegador, se muestra la página inicial creada, confirmando que el Virtualhost ha sido configurado correctamente.
+   ![Verificación del Virtualhost](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/apache/pagina.png)
