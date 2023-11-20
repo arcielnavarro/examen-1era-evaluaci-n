@@ -55,6 +55,7 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 
 2. **Creación de Archivo de Texto:**
    - Navegar al escritorio de la máquina remota.
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/ssh/creando%20el%20txt%20en%20el%20escritorio.png)
    - Crear un archivo de texto con el nombre y apellido, sin espacios y con extensión `.txt` (ejemplo: `ArnoldSchwarzenegger.txt`).
 
 3. **Registro de Usuario Activo:**
