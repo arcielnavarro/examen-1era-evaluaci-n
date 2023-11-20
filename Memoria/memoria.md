@@ -19,9 +19,7 @@ La segunda actividad se centra en la configuración de un Virtualhost. En esta p
    1. [SSH + Command line](#ssh--command-line)
    2. [Virtualhost](#virtualhost)
    3. [Banco de Pruebas](#banco--de-pruebas)
-3. [Conclusiones](#conclusiones)
-4. [Bibliografía](#bibliografía)
-5. [Anexos](#anexos)
+3. [Resultados y Conclusiones](#resultado--y-conclusiones)
 
 ## Introducción
 
@@ -125,4 +123,23 @@ Para asegurar que el Virtualhost ha sido configurado correctamente y funciona se
    - **Método:** Generar tráfico al sitio y luego revisar `error.log` y `access.log` en `/var/log/apache2/` para cualquier actividad reciente.
    - **Resultado Esperado:** Los logs deben reflejar las solicitudes recientes y cualquier error, si lo hubiera.
 
+## Resultados y Conclusiones
+
+Después de completar las actividades y pruebas correspondientes al examen de "Despliegue de Aplicaciones Web", se pueden destacar los siguientes resultados y conclusiones:
+
+### Resultados
+Los resultados obtenidos de las pruebas del banco de pruebas muestran que:
+
+- La configuración del **Virtualhost** se realizó correctamente, permitiendo que el dominio `daw.ejercicio3.com` resolviera a la página web local esperada.
+- La conexión a través de **SSH y la línea de comandos** se ejecutó con éxito, demostrando una comprensión práctica de las operaciones básicas en un entorno de servidor remoto.
+- Los archivos de configuración y los logs de Apache confirmaron que los datos estaban siendo servidos desde el directorio correcto y que no se presentaron errores durante el proceso.
+
+### Conclusiones
+La realización de este examen ha proporcionado una oportunidad invaluable para aplicar conocimientos teóricos en un entorno práctico y supervisado. A través de la ejecución de tareas técnicas, se ha reforzado la comprensión de los conceptos fundamentales del despliegue de aplicaciones web y la gestión de servidores.
+
+Comparando con los trabajos de los compañeros de clase, se observa una variedad de enfoques que enriquecen la experiencia de aprendizaje, permitiendo identificar áreas de mejora y alternativas creativas en la resolución de problemas.
+
+En términos personales, este examen ha sido un desafío gratificante que ha fomentado un crecimiento significativo en habilidades técnicas y en la confianza para enfrentar situaciones similares en el futuro. La capacidad de diagnosticar y resolver problemas en tiempo real ha sido una de las habilidades más valiosas adquiridas durante este proceso.
+
+En conclusión, el examen ha cumplido su propósito como herramienta de evaluación y como medio para facilitar el desarrollo profesional, preparando a los estudiantes para las demandas del mundo real en el despliegue y la administración de aplicaciones web.
 
