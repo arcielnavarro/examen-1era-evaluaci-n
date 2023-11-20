@@ -46,7 +46,7 @@ Finalmente, el examen proporciona una oportunidad para que los estudiantes demue
 
 Este segmento del documento se divide en dos actividades principales: SSH + Command line y Virtualhost. Cada actividad representa un aspecto único y esencial del curso "Despliegue de Aplicaciones Web", demostrando habilidades prácticas y técnicas en el manejo de servidores y en la configuración de sitios web.
 
-### SSH + Command line (3 puntos)
+### SSH + Command line
 El objetivo de esta actividad es demostrar la habilidad para conectarse y operar en una máquina remota utilizando SSH y la línea de comandos. Los pasos realizados son los siguientes:
 
 1. **Acceso Remoto a la Máquina:**
@@ -55,8 +55,8 @@ El objetivo de esta actividad es demostrar la habilidad para conectarse y operar
 
 2. **Creación de Archivo de Texto:**
    - Navegar al escritorio de la máquina remota.
-     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/ssh/creando%20el%20txt%20en%20el%20escritorio.png)
    - Crear un archivo de texto con el nombre y apellido, sin espacios y con extensión `.txt` (ejemplo: `ArnoldSchwarzenegger.txt`).
+     ![imagen](https://github.com/arcielnavarro/examen-1era-evaluaci-n/blob/main/Im%C3%A1genes/ssh/creando%20el%20txt%20en%20el%20escritorio.png)
 
 3. **Registro de Usuario Activo:**
    - Ejecutar el comando `whoami` y escribir el resultado en el archivo creado anteriormente.
